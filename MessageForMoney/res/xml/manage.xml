@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="preference" android:title="설정">
+    <PreferenceCategory android:key="weekday" android:title="요일">
+	    <CheckBoxPreference android:key="sunday" android:title="일" android:defaultValue="false"/>
+	    <CheckBoxPreference android:key="monday" android:title="월" android:defaultValue="true"/>
+	    <CheckBoxPreference android:key="tuesday" android:title="화" android:defaultValue="true"/>
+	    <CheckBoxPreference android:key="wednesday" android:title="수" android:defaultValue="true"/>
+	    <CheckBoxPreference android:key="thursday" android:title="목" android:defaultValue="true"/>
+	    <CheckBoxPreference android:key="friday" android:title="금" android:defaultValue="true"/>
+	    <CheckBoxPreference android:key="saturday" android:title="토" android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="저녁식사" android:key="dinner">
+        <SwitchPreference android:title="다른 식사 포함" android:key="include_other" android:defaultValue="true"/><EditTextPreference android:title="다른 식사비" android:key="money_for_other" android:defaultValue="2000"/>
+        
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:key="phone_list" android:title="전화번호">
+        <Preference android:title="전화번호 리스트" android:key="send_phonenum"/><Preference android:title="전화번호 추가" android:key="add_phonenum"/>
+        
+    </PreferenceCategory>
+    <PreferenceCategory android:key="message" android:title="메시지">
+        <Preference android:title="메시지 설정" android:key="msg_format" android:summary="보낼 문자 메시지의 형식을 설정합니다"/>
+    </PreferenceCategory>
+</PreferenceScreen>

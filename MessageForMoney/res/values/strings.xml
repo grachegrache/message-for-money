@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">생활비 계산기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="initial_value">0</string>
+    <string name="traffic">교통비</string>
+    <string name="allowance">용돈</string>
+    <string name="menu">configuration menu</string>
+    <string name="sms">send message to all person from phone list</string>
+    <string name="total">합계</string>
+    <string name="food">식비</string>
+
+</resources>
